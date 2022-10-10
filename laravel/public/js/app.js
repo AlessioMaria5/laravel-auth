@@ -49681,8 +49681,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/cavita/Documents/Laravel/Laravel auth/laravel-auth/auth/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/cavita/Documents/Laravel/Laravel auth/laravel-auth/auth/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/cavita/Documents/Laravel/Laravel auth/laravel-auth/laravel/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/cavita/Documents/Laravel/Laravel auth/laravel-auth/laravel/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
