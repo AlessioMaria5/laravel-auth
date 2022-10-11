@@ -1,6 +1,8 @@
 @extends ('layouts.app')
 
 @section ('content')
+<div class="container d-flex">
+
 <a href="{{route('admin.posts.create')}}">+ Nuovo post</a>
 <ul>
     @foreach ($posts as $post)
@@ -11,11 +13,13 @@
             <form action="{{route('admin.posts.destroy', $post->id)}}" method="POST">
                 @csrf
                 @method('DELETE')
-                <button type="submit">Elimina</button>
+                <button class="btn-danger" type="submit">Elimina</button>
             </form>
         </li>
     @endforeach
 </ul>
 
 
+
+</div>
 @endsection
